@@ -1,0 +1,167 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+body{
+    padding-top: 1px;
+    position: relative;
+    overflow-y: visible;
+}
+body:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+}
+h1, h2, h3, h4, h5 {
+    margin: 5px 0;
+    line-height: 35px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.hidden, .visible-lg, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block, .visible-md, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-sm, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-xs, .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block {
+    display: none!important;
+}
+button, input, label, select, textarea {
+    font-weight: 400;
+    line-height: 20px;
+}
+input, select, textarea {
+    display: inline-block;
+    height: 20px;
+    padding: 5px 6px 3px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 0;
+    background: none;
+    vertical-align: middle;
+    outline: none;
+}
+/*input:focus, select:focus, textarea:focus {*/
+/*    border: none!important;*/
+/*}*/
+.uneditable-input, input, textarea {
+    width: 206px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+textarea {
+    height: auto;
+}
+input, textarea {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-top-color: silver;
+    border-left-color: #d0d0d0;
+    -webkit-transition: border linear .2s;
+    -moz-transition: border linear .2s;
+    transition: border linear .2s;
+}
+body {
+    margin: 0;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    background-color: #eee;
+    overflow-x: hidden;
+}
+ul,li,ol,dl,dt,dd{list-style: none;}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+a:focus, a:hover {
+    color: #007046;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.el-time-range-picker{
+    width: 100% !important;
+    left: 0!important;
+}
+
+.hh-ad{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.hh-ad + .hh-ad{
+    margin-top: 15px;
+}
+.hh-ad p{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.hh-ad a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.hh-ad a img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.article-header .cate, .article-header .muted, .excerpt .muted {
+    margin-right: 20px;
+}
+.muted {
+    color: #999;
+}
+.el-divider__text{
+    background: #eee !important;
+}
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 0 !important;height: 0;
+}
+/*博客内容*/
+
+
+/*博客内容*/
+@media only screen and (max-width : 767px){
+    .el-dialog{
+        width: 90% !important;
+    }
+
+    /*博客内容*/
+
+
+    /*博客内容*/
+}
+
+/* I动物 */
